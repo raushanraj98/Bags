@@ -392,9 +392,6 @@ footer {
     display: block;
     background-color: rgb(0, 0, 0);
     padding: 2rem;
-    width: 100vw;
-    margin-right: 0%;
-    margin-bottom: 2rem;
   }
 
   header .btn {
@@ -473,7 +470,7 @@ footer {
     height: 250px;
     width: 18vw;
     padding: 1rem;
-    right: -5.2%;
+    right: -7%;
   }
 
   .follow__head {
