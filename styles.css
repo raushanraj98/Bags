@@ -143,6 +143,7 @@ main .btn-group {
 
 .follow {
   position: absolute;
+  z-index: 1;
   width: 10vw;
   height: 200px;
   background-color: silver;
@@ -304,60 +305,9 @@ footer {
 
 /* media query */
 
-/* tab view */
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (max-width: 767px) {
   html {
-    font-size: 40%;
-  }
-
-  .nav-link {
-    margin-right: 10rem;
-  }
-
-  .d-flex img {
-    width: 3rem;
-    top: 1.28rem;
-  }
-
-  .main__banner__left {
-    height: 40vh;
-  }
-
-  .main__banner__right {
-    height: 40vh;
-  }
-  .follow {
-    top: 76%;
-    width: 20vw;
-    height: 170px;
-  }
-
-  .follow__head {
-    font-size: 3rem;
-  }
-
-  .sales__head:after {
-    width: 13%;
-  }
-
-  .sales hr {
-    margin-right: 21rem;
-  }
-  .sales__card img {
-    width: 90%;
-  }
-
-  .sales__card__item--details {
-    width: 90%;
-  }
-}
-
-/* mobile view */
-
-@media only screen and (max-width: 600px) {
-  html {
-    font-size: 30%;
+    font-size: 20%;
   }
 
   /* head */
@@ -369,7 +319,7 @@ footer {
   .header__search {
     display: block;
     position: absolute;
-    top: 5.4%;
+    top: 3.4%;
     right: 5%;
   }
 
@@ -424,7 +374,7 @@ footer {
   /* main */
 
   main .dropdown-toggle::after {
-    margin-left: 8.255em;
+    margin-left: 16.255em;
   }
 
   main .btn-group {
@@ -467,7 +417,7 @@ footer {
   }
   .follow {
     top: 200%;
-    height: 250px;
+    height: 300px;
     width: 18vw;
     padding: 1rem;
     right: -6.8%;
@@ -561,5 +511,213 @@ footer {
     text-align: left;
     padding-left: 2rem;
     width: 25%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  html {
+    font-size: 18%;
+  }
+  .header__search {
+    width: 9rem;
+    top: 7rem;
+    right: 5%;
+  }
+  main .dropdown-toggle::after {
+    margin-left: 18.255em;
+  }
+  .sales__head:after {
+    width: 20%;
+  }
+  .sales__card__item img {
+    width: 150px;
+  }
+  .follow {
+    height: 220px;
+  }
+}
+
+@media only screen and (max-width: 310px) {
+  main .dropdown-toggle::after {
+    margin-left: 8.255em;
+  }
+  .sales__head:after {
+    width: 29.3%;
+  }
+  .follow {
+    height: 180px;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+  html {
+    font-size: 25%;
+  }
+  main .dropdown-toggle::after {
+    margin-left: 11.255em;
+  }
+  .sales__head:after {
+    width: 29.3%;
+  }
+  .follow {
+    height: 250px;
+  }
+  .follow__icons--img {
+    width: 65%;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 600px) {
+  main .dropdown-toggle::after {
+    margin-left: 18.255em;
+  }
+  .sales__head:after {
+    width: 24.3%;
+  }
+  .follow {
+    height: 300px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  html {
+    font-size: 40%;
+  }
+  .header__search {
+    width: 6rem;
+    top: 9rem;
+    right: 5%;
+  }
+  .main__banner__left {
+    height: 40vh;
+  }
+  main .btn.dropdown-toggle {
+    height: 8rem;
+  }
+  main .dropdown-toggle::after {
+    margin-left: 12.255em;
+  }
+  .follow {
+    height: 400px;
+  }
+  .sales__head:after {
+    width: 34.3%;
+  }
+  .follow__icons--img {
+    width: 60%;
+  }
+  .sales__card__item img {
+    width: 300px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  html {
+    font-size: 30%;
+  }
+
+  .nav-link {
+    margin-right: 10rem;
+  }
+
+  .d-flex img {
+    width: 3rem;
+    top: 1.28rem;
+  }
+
+  .main__banner__left {
+    height: 40vh;
+  }
+
+  .main__banner__right {
+    height: 40vh;
+  }
+  .main__banner__right--list li {
+    font-size: 2.5rem;
+  }
+
+  .follow {
+    top: 76%;
+    width: 20vw;
+    height: 170px;
+  }
+
+  .follow__head {
+    font-size: 3rem;
+  }
+
+  .sales__head:after {
+    width: 9.3%;
+  }
+
+  .sales hr {
+    margin-right: 21rem;
+  }
+  .sales__card img {
+    width: 90%;
+  }
+
+  .sales__card__item--details {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  html {
+    font-size: 45%;
+  }
+  .nav-link {
+    margin-right: 10rem;
+  }
+  .main__banner__right--list li {
+    font-size: 2rem;
+  }
+  .follow {
+    width: 200px;
+  }
+  .sales__head:after {
+    width: 10.3%;
+  }
+  .sales__card img {
+    width: 90%;
+  }
+  .sales__card__item img {
+    width: 30rem;
+  }
+
+  .sales__card__item--details {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1774px) {
+  html {
+    font-size: 55%;
+  }
+  .nav-link {
+    margin-right: 15rem;
+  }
+  .main__banner__right--list li {
+    font-size: 1.5rem;
+  }
+  .follow {
+    width: 200px;
+  }
+  .sales__head:after {
+    width: 9.3%;
+  }
+  .sales__card img {
+    width: 90%;
+  }
+
+  .sales__card__item--details {
+    width: 90%;
+  }
+
+  .sales__card__item img {
+    width: 30rem;
+  }
+  .sales__card__item--details {
+    width: 100%;
   }
 }
