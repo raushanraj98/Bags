@@ -3,7 +3,7 @@
   padding: 0;
 }
 html {
-  font-size: 62.5%;
+  font-size: 10px;
 }
 
 /* header */
@@ -307,7 +307,7 @@ footer {
 
 @media only screen and (max-width: 767px) {
   html {
-    font-size: 20%;
+    font-size: 40%;
   }
 
   /* head */
@@ -393,6 +393,9 @@ footer {
     text-align: left;
     margin-top: 1rem;
   }
+  main .btn.dropdown-toggle {
+    height: 8rem;
+  }
 
   main button.dropdown-toggle {
     font-size: 4rem;
@@ -405,11 +408,11 @@ footer {
   }
   .main__banner__left {
     width: 90vw;
-    height: 20vh;
+    height: 30vh;
   }
 
   .main__banner__left--text {
-    top: 20%;
+    top: 40%;
   }
 
   .main__banner__right {
@@ -461,6 +464,9 @@ footer {
   }
   .sales__card__item img {
     width: 100%;
+  }
+  .sales__card__item img {
+    width: 250px;
   }
 
   .sales__card__item--details {
@@ -515,22 +521,23 @@ footer {
 }
 
 @media only screen and (max-width: 400px) {
-  html {
-    font-size: 18%;
+  html{
+    font-size: 30%;
   }
   .header__search {
-    width: 9rem;
-    top: 7rem;
+    width: 6rem;
+    top: 4.5%;
     right: 5%;
   }
   main .dropdown-toggle::after {
-    margin-left: 18.255em;
+    margin-left: 6em;
   }
+
   .sales__head:after {
-    width: 20%;
+    width: 48.6%;
   }
   .sales__card__item img {
-    width: 150px;
+    width: 200px;
   }
   .follow {
     height: 220px;
@@ -538,11 +545,14 @@ footer {
 }
 
 @media only screen and (max-width: 310px) {
+  html{
+    font-size: 30%;
+  }
   main .dropdown-toggle::after {
-    margin-left: 8.255em;
+    margin-left: 2.255em;
   }
   .sales__head:after {
-    width: 29.3%;
+    width: 49.3%;
   }
   .follow {
     height: 180px;
@@ -550,29 +560,50 @@ footer {
 }
 
 @media only screen and (min-width: 400px) and (max-width: 600px) {
-  html {
-    font-size: 25%;
+
+  
+
+  .header__search {
+    width: 6rem;
+    top: 6.5%;
+    right: 5%;
   }
+
+  main .btn.dropdown-toggle{
+    font-size: 3.8rem;
+  }
+
   main .dropdown-toggle::after {
-    margin-left: 11.255em;
+    margin-left: 5.2em;
+  }
+  .sales__card__item img {
+    width: 220px;
+  }
+
+  .sales__card__item--details {
+    font-size: 3rem;
   }
   .sales__head:after {
-    width: 29.3%;
+    width: 46.3%;
   }
   .follow {
     height: 250px;
   }
   .follow__icons--img {
-    width: 65%;
+    width: 70%;
   }
 }
 
 @media only screen and (min-width: 500px) and (max-width: 600px) {
+  
   main .dropdown-toggle::after {
-    margin-left: 18.255em;
+    margin-left: 8.255em;
+  }
+  .sales__card__item img {
+    width: 300px;
   }
   .sales__head:after {
-    width: 24.3%;
+    width: 38.3%;
   }
   .follow {
     height: 300px;
@@ -580,19 +611,10 @@ footer {
 }
 
 @media only screen and (min-width: 600px) and (max-width: 767px) {
-  html {
-    font-size: 40%;
-  }
   .header__search {
     width: 6rem;
     top: 9rem;
     right: 5%;
-  }
-  .main__banner__left {
-    height: 40vh;
-  }
-  main .btn.dropdown-toggle {
-    height: 8rem;
   }
   main .dropdown-toggle::after {
     margin-left: 12.255em;
@@ -670,7 +692,7 @@ footer {
     margin-right: 10rem;
   }
   .main__banner__right--list li {
-    font-size: 2rem;
+    font-size: 1.9rem;
   }
   .follow {
     width: 200px;
@@ -698,7 +720,7 @@ footer {
     margin-right: 15rem;
   }
   .main__banner__right--list li {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   }
   .follow {
     width: 200px;
