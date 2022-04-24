@@ -547,6 +547,9 @@ main .btn.dropdown-toggle{
   .quickLinks ul {
     display: flex;
   }
+  .quickLinks li{
+    margin-right: 3rem;
+  }
   .contactInfo {
     margin-left: 3rem;
   }
@@ -811,7 +814,7 @@ main .btn.dropdown-toggle{
   }
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
+@media only screen and (min-width: 992px) and (max-width: 1248px) {
   html {
     font-size: 70%;
   }
@@ -864,19 +867,19 @@ main .btn.dropdown-toggle{
   }
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1774px) {
+@media only screen and (min-width: 1248px) and (max-width: 1774px) {
   html {
     font-size: 90%;
   }
   .nav-link {
-    margin-right: 8rem;
-    font-size:14px;
+    margin-right: 9rem;
+    font-size:15.5px;
   }
   .main__banner__right--list li {
     font-size: 1.5rem;
   }
   #navBarSearchForm {
-    width: 20.75rem;
+    width: 25.75rem;
   }
   
   .follow {
