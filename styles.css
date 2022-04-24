@@ -758,7 +758,7 @@ main .btn.dropdown-toggle{
   }
 
   .main__banner__left,.main__banner__right {
-    height: vh;
+    height: 55vh;
   }
 
   .main__banner__left--text{
