@@ -333,9 +333,7 @@ main .btn.dropdown-toggle{
 /* media query */
 
 @media only screen and (max-width: 767px) {
-  html {
-    font-size: 40%;
-  }
+ 
 
   /* head */
 
@@ -346,29 +344,30 @@ main .btn.dropdown-toggle{
   .header__search {
     display: block;
     position: absolute;
-    top: 3.4%;
+    top: 5.4%;
     right: 5%;
   }
 
   .header__banner {
     border-bottom: 1px solid silver;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
     text-align: left;
   }
 
   .header__banner--logo {
-    height: 8rem;
+    height: 3.2rem;
   }
 
   header .dropdown-toggle::after {
-    margin-left: 33.255em;
+    display: none;
+    
   }
 
   header .dropdown {
     display: block;
     background-color: rgb(0, 0, 0);
-    padding: 2rem;
+    padding: 0.8rem;
   }
 
   header .btn {
@@ -376,21 +375,22 @@ main .btn.dropdown-toggle{
   }
 
   header .dropdown img {
-    width: 3rem;
+    width: 1.5rem;
     position: absolute;
+    top:1rem;
     right: 7%;
   }
 
   header .dropdown-menu {
-    width: 98.6%;
-    font-size: 4rem;
+    width: 98.9%;
+    font-size: 1.6rem;
     text-align: center;
     background-color: #c57901;
   }
 
   header .dropdown-item {
     color: white;
-    margin-bottom: 4rem;
+    margin-bottom: 1.6rem;
   }
 
   header .dropdown-item:active {
@@ -416,18 +416,18 @@ main .btn.dropdown-toggle{
     background-color: #894b02;
     color: white;
     height: 4vh;
-    font-size: 2rem;
-    margin-left: 3rem;
-    margin-right: 2rem;
+    font-size: 0.8rem;
+    margin-left: 1.2rem;
+    margin-right: 0.8rem;
     text-align: left;
-    margin-top: 1rem;
+    margin-top: 0.4rem;
   }
   main .btn.dropdown-toggle {
-    height: 8rem;
+    height: 3.2rem;
   }
 
   main button.dropdown-toggle {
-    font-size: 4rem;
+    font-size: 1.6rem;
     height: 40px;
   }
 
@@ -436,12 +436,13 @@ main .btn.dropdown-toggle{
     border:none;
   }
   .main__banner {
-    display: block;
-    width: 90vw;
+    width: 94vw;
+    margin-top: 1rem;
+    margin-left: 0.7rem;
   }
   .main__banner__left {
     width: 92vw;
-    height: 30vh;
+    height: 40vh;
   }
 
   .main__banner__left--text {
@@ -449,26 +450,26 @@ main .btn.dropdown-toggle{
   }
 
   .main__banner__left--text1{
-    font-size: 3rem;
+    font-size: 1.2rem;
   }
 
   .main__banner__left--text2{
-    font-size: 10rem;
+    font-size: 4rem;
   }
 
   .main__banner__right {
     display: none;
   }
   .follow {
-    top: 160%;
+    top: 120%;
     height: 250px;
     width: 22vw;
-    padding: 1rem;
-    right: -8.5%;
+    padding: 0.4rem;
+    right: 0%;
   }
 
   .follow__head {
-    font-size: 3.5rem;
+    font-size: 1.4rem;
   }
 
   .follow__icons {
@@ -481,13 +482,13 @@ main .btn.dropdown-toggle{
 
   .follow img {
     width: 80%;
-    padding: 1rem;
+    padding: 0.4rem;
   }
 
   /* sales */
 
   .sales__head {
-    font-size: 4rem;
+    font-size: 1.6rem;
   }
 
   .sales__head:after {
@@ -498,7 +499,7 @@ main .btn.dropdown-toggle{
   .sales__card {
     flex-direction: column;
     align-items: center;
-    gap: 8rem;
+    gap: 3.2rem;
   }
   .sales__card__item img {
     width: 100%;
@@ -508,82 +509,80 @@ main .btn.dropdown-toggle{
   }
 
   .sales__card__item--details {
-    font-size: 4rem;
-    padding: 3rem;
+    font-size: 1.6rem;
+    padding: 1.2rem;
   }
 
   /* details */
 
   .details__head {
-    font-size: 5.5rem;
-    margin-bottom: 10rem;
+    font-size: 2.2rem;
+    margin-bottom: 4rem;
   }
 
   .details__body {
     line-height: 3;
-    font-size: 3rem;
-    margin-bottom: 20rem;
+    font-size: 1.2rem;
+    margin-bottom: 8rem;
   }
 
   /* footer */
 
   .footer__links {
     flex-direction: column;
-    font-size: 2.8rem;
+    font-size: 1.12rem;
     font-family: "Open Sans", sans-serif;
   }
 
   .quickLinks__head,
   .newsLetter__head,
   .contactInfo__head {
-    font-size: 3rem;
+    font-size: 1.2rem;
   }
 
   .quickLinks__head,
   .newsLetter__head {
-    margin-bottom: 1rem;
+    margin-bottom: 0.4rem;
   }
 
   .quickLinks ul {
     display: flex;
   }
   .quickLinks li{
-    margin-right: 3rem;
+    margin-right: 1.2rem;
   }
   .contactInfo {
-    margin-left: 3rem;
+    margin-left: 2.2rem;
   }
 
   .newsLetter button {
     border: none;
     text-align: left;
-    padding-left: 2rem;
+    padding-left: 0.8rem;
     width: 25%;
-    margin-bottom: 2rem;
+    margin-bottom: 0.8rem;
   }
 
   .copyright{
-    font-size: 2rem;
+    font-size: 0.8rem;
   }
 }
 
 @media only screen and (max-width: 400px) {
-  html{
-    font-size: 30%;
-  }
+ 
   .header__search {
-    width: 6rem;
-    top: 5.5%;
+    width: 2.4rem;
+    top: 10.5%;
     right: 5%;
   }
   
 
   .main__banner__left--text1{
-    font-size: 2rem;
+    font-size: 0.6rem;
   }
 
   .main__banner__left--text2{
-    font-size: 8rem;
+    font-size: 2.4rem;
   }
 
   .sales__head:after {
@@ -595,32 +594,32 @@ main .btn.dropdown-toggle{
   .follow {
     width: 80px;
     height: 250px;
-    top:150%;
+    top:110%;
   }
 
   .follow__head{
-    font-size: 2.8rem;
+    font-size: 0.84rem;
   }
   .follow__icons--img {
     width: 85%;
   }
+  .footer__links{
+    font-size: 90%;
+  }
 }
 
 @media only screen and (max-width: 327px) {
-  html{
-    font-size: 30%;
-  }
-  
+
   .main__banner__left--text{
     top:50%;
   }
 
   .main__banner__left--text1{
-    font-size: 2rem;
+    font-size: 0.6rem;
   }
 
   .main__banner__left--text2{
-    font-size: 6rem;
+    font-size: 1.8rem;
   }
   .sales__head:after {
     width: 49.3%;
@@ -633,10 +632,13 @@ main .btn.dropdown-toggle{
     width:60px;
   }
   .follow__head{
-    font-size: 2rem;
+    font-size: 0.6rem;
   }
   .follow__icons--img {
     width: 85%;
+  }
+  .footer__links{
+    font-size: 70%;
   }
 }
 
@@ -645,28 +647,28 @@ main .btn.dropdown-toggle{
   
 
   .header__search {
-    width: 6rem;
-    top: 6.5%;
+    width: 2.4rem;
+    top: 10.5%;
     right: 5%;
   }
 
   main .btn.dropdown-toggle{
-    font-size: 3.8rem;
+    font-size: 1.52rem;
   }
 
   .main__banner__left--text1{
-    font-size: 2rem;
+    font-size: 0.8rem;
   }
 
   .main__banner__left--text2{
-    font-size: 7rem;
+    font-size: 2.8rem;
   }
   .sales__card__item img {
     width: 240px;
   }
 
   .sales__card__item--details {
-    font-size: 3rem;
+    font-size: 1.2rem;
   }
   .sales__head:after {
     width: 49.3%;
@@ -676,10 +678,10 @@ main .btn.dropdown-toggle{
     height: 320px;
   }
   .follow__head{
-    font-size: 2.5rem;
+    font-size: 1rem;
   }
   .follow__icons--img {
-    width: 90%;
+    width: 80%;
   }
 }
 
@@ -687,7 +689,7 @@ main .btn.dropdown-toggle{
   
 
   .main__banner__left--text1{
-    font-size: 2rem;
+    font-size: 0.8rem;
   }
   .sales__card__item img {
     width: 300px;
@@ -703,23 +705,23 @@ main .btn.dropdown-toggle{
     width: 70%;
   }
   .follow__head{
-    font-size: 3.5rem;
+    font-size: 1.4rem;
   }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 767px) {
   .header__search {
-    width: 6rem;
-    top: 9rem;
+    width: 2.4rem;
+    top: 2.6rem;
     right: 5%;
   }
 
   .main__banner__left--text2{
-    font-size: 10rem;
+    font-size: 4rem;
   }
   .follow {
     width:160px;
-    height: 340px;
+    height: 450px;
   }
   .follow__icons{
     width:80%;
@@ -730,7 +732,7 @@ main .btn.dropdown-toggle{
   }
 
   .follow__icons--img {
-    width: 55%;
+    width: 70%;
   }
   .sales__head:after {
     width: 34.3%;
@@ -741,23 +743,20 @@ main .btn.dropdown-toggle{
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
-  html {
-    font-size: 70%;
-  }
-
+ 
   .nav-link {
-    font-size: 12.5px;
-    margin-right: 4.2rem;
+    font-size: 10.5px;
+    margin-right: 2.64rem;
   }
 
   #navBarSearchForm {
-    width: 18.75rem;
+    width: 15.125rem;
   }
   
 
   .d-flex img {
-    width: 2rem;
-    top: 1rem;
+    width: 1.6rem;
+    top: 0.9rem;
   }
 
   .main__banner__left,.main__banner__right {
@@ -769,38 +768,38 @@ main .btn.dropdown-toggle{
   }
 
   .main__banner__left--text1{
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
   .main__banner__left--text2{
-    font-size: 4rem;
+    font-size: 2.8rem;
   }
 
   .main__banner__right--list li {
-    font-size: 1.5rem;
+    font-size: 0.8rem;
   }
 
   .main__banner__right li:nth-child(7) {
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
   }
 
   .follow {
     top: 85%;
     width: 20vw;
-    height: 170px;
+    height: 180px;
   }
 
   .follow__head {
-    font-size: 1.8rem;
+    font-size: 1.26rem;
   }
   .follow__icons--img {
     width: 34%;
   }
   .follow img {
-    margin:  0.565rem 0.2rem ;
+    margin:  0.3955rem 0.14rem ;
   }
 
   .sales__head:after {
-    width: 15.3%;
+    width: 19.3%;
   }
 
   
@@ -810,50 +809,53 @@ main .btn.dropdown-toggle{
 
   .sales__card__item--details {
     width: 90%;
-    font-size: 1.3rem;
+    height:4rem;
+    padding:1rem;
+    font-size: 1rem;
+  }
+  .quickLinks,.newsLetter,.contactInfo{
+    font-size:0.8rem;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1248px) {
-  html {
-    font-size: 70%;
-  }
+ 
   .nav-link {
     font-size: 16px;
-    margin-right: 6rem;
+    margin-right: 4.2rem;
   }
   #navBarSearchForm {
-    width: 28.75rem;
+    width: 20.125rem;
   }
 
   .main__banner__left,.main__banner__right{
     height:60vh;
   }
+  .main__banner__left--text2{
+    font-size: 4.2rem;
+  }
 
   .d-flex img {
-    width: 2rem;
-    top: 1rem;
+    width: 1.6rem;
+    top: 0.9rem;
   }
   
   .main__banner__right--list li {
-    font-size: 2rem;
+    font-size: 1rem;
   }
   .follow {
-    width: 180px;
-    top:85%;
-    height:170px;
-  }
-  .follow__icons--img {
-    width: 50%;
+    width: 200px;
+    top:87%;
+    height:200px;
   }
   .follow__head {
-    font-size: 1.81rem;
+    font-size: 1.267rem;
   }
   .follow img {
-    margin: 0 0.825 0 0rem ;
+    margin:  0.5955rem 0.14rem  ;
   }
   .sales__head:after {
-    width: 10.3%;
+    width: 14%;
   }
   .sales__card img {
     width: 90%;
@@ -864,22 +866,22 @@ main .btn.dropdown-toggle{
 
   .sales__card__item--details {
     width: 100%;
+    height:5rem;
+    font-size: 1.4rem;
   }
 }
 
 @media only screen and (min-width: 1248px) and (max-width: 1774px) {
-  html {
-    font-size: 90%;
-  }
+ 
   .nav-link {
-    margin-right: 9rem;
+    margin-right: 8.1rem;
     font-size:15.5px;
   }
   .main__banner__right--list li {
-    font-size: 1.5rem;
+    font-size: 1.35rem;
   }
   #navBarSearchForm {
-    width: 25.75rem;
+    width: 23.175rem;
   }
   
   .follow {
