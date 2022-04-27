@@ -571,8 +571,8 @@ main .btn.dropdown-toggle{
 @media only screen and (max-width: 400px) {
  
   .header__search {
-    width: 2.4rem;
-    top: 10.5%;
+    width: 2rem;
+    top: 9.5%;
     right: 5%;
   }
   
@@ -593,7 +593,7 @@ main .btn.dropdown-toggle{
   }
   .follow {
     width: 80px;
-    height: 250px;
+    height: 280px;
     top:110%;
   }
 
@@ -681,7 +681,7 @@ main .btn.dropdown-toggle{
     font-size: 1rem;
   }
   .follow__icons--img {
-    width: 80%;
+    width: 70%;
   }
 }
 
@@ -711,8 +711,8 @@ main .btn.dropdown-toggle{
 
 @media only screen and (min-width: 600px) and (max-width: 767px) {
   .header__search {
-    width: 2.4rem;
-    top: 2.6rem;
+    width: 2.2rem;
+    top: 4.6rem;
     right: 5%;
   }
 
@@ -745,7 +745,7 @@ main .btn.dropdown-toggle{
 @media only screen and (min-width: 768px) and (max-width: 992px) {
  
   .nav-link {
-    font-size: 10.5px;
+    font-size: 12.5px;
     margin-right: 2.64rem;
   }
 
