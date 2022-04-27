@@ -81,7 +81,7 @@ main .btn.dropdown-toggle{
   height: 100%;
   border: 1px solid rgba(128, 128, 128, 0.4);
   border-radius: 0;
-  font-size: 2.5rem;
+  font-size: 0.8rem;
   font-weight: 300;
   padding: 1.25rem;
 }
