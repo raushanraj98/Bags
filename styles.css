@@ -73,7 +73,8 @@ main .btn.dropdown-toggle{
   display: none;
   width: 95%;
   height: 5rem;
-  margin: auto;
+  margin: 1rem auto;
+
 }
 
 .main__search--two .form-control {
@@ -168,6 +169,7 @@ main .btn.dropdown-toggle{
   font-size: 1.51rem;
 }
 .follow__icons {
+  list-style: none;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -315,6 +317,9 @@ main .btn.dropdown-toggle{
   padding: 0.375rem;
   font-size: 0.937rem;
   text-align: center;
+  margin-bottom: 0;
+  width:100%;
+  display: block;
 }
 
 .content{
@@ -343,15 +348,16 @@ main .btn.dropdown-toggle{
 
   .header__search {
     display: block;
-    position: absolute;
-    top: 5.4%;
-    right: 5%;
+    margin-top: 2rem;
+    width:2.2rem;
   }
 
-  .header__banner {
+  .logo {
+    display: flex;
+    justify-content: space-between;
     border-bottom: 1px solid silver;
     margin-left: 1.2rem;
-    margin-right: 1.2rem;
+    margin-right: 2.5rem;
     text-align: left;
   }
 
@@ -436,7 +442,6 @@ main .btn.dropdown-toggle{
     border:none;
   }
   .main__banner {
-    width: 94vw;
     margin-top: 1rem;
     margin-left: 0.7rem;
   }
@@ -461,7 +466,7 @@ main .btn.dropdown-toggle{
     display: none;
   }
   .follow {
-    top: 120%;
+    top: 200%;
     height: 250px;
     width: 22vw;
     padding: 0.4rem;
@@ -486,9 +491,14 @@ main .btn.dropdown-toggle{
   }
 
   /* sales */
+  .sales{
+    margin-left:1rem
+  }
 
   .sales__head {
     font-size: 1.6rem;
+    padding-left: 0%;
+    margin-left: 1rem;
   }
 
   .sales__head:after {
@@ -570,13 +580,9 @@ main .btn.dropdown-toggle{
 
 @media only screen and (max-width: 400px) {
  
-  .header__search {
-    width: 2rem;
-    top: 9.5%;
-    right: 5%;
+  .logo{
+    margin-right: 1rem;
   }
-  
-
   .main__banner__left--text1{
     font-size: 0.6rem;
   }
@@ -585,11 +591,19 @@ main .btn.dropdown-toggle{
     font-size: 2.4rem;
   }
 
+  main .btn.dropdown-toggle{
+    font-size: 1.4rem;
+  }
+
+  .sales__head{
+    font-size:1.4rem;
+  }
+
   .sales__head:after {
-    width: 42.6%;
+    width: 50.6%;
   }
   .sales__card__item img {
-    width: 210px;
+    width: 180px;
   }
   .sales__card__item--details{
     font-size: 1rem;
@@ -597,7 +611,6 @@ main .btn.dropdown-toggle{
   .follow {
     width: 80px;
     height: 280px;
-    top:110%;
   }
 
   .follow__head{
@@ -624,8 +637,12 @@ main .btn.dropdown-toggle{
   .main__banner__left--text2{
     font-size: 1.8rem;
   }
+  .sales__head{
+    font-size:1.2rem;
+  }
+
   .sales__head:after {
-    width: 49.3%;
+    width: 50.6%;
   }
   .sales__card__item img {
     width: 180px;
@@ -641,18 +658,14 @@ main .btn.dropdown-toggle{
     width: 85%;
   }
   .footer__links{
-    font-size: 70%;
+    font-size: 80%;
   }
 }
 
 @media only screen and (min-width: 400px) and (max-width: 600px) {
 
-  
-
-  .header__search {
-    width: 2.4rem;
-    top: 10.5%;
-    right: 5%;
+  .logo{
+    margin-right: 1.55rem;
   }
 
   main .btn.dropdown-toggle{
@@ -667,7 +680,7 @@ main .btn.dropdown-toggle{
     font-size: 2.8rem;
   }
   .sales__card__item img {
-    width: 240px;
+    width: 200px;
   }
 
   .sales__card__item--details {
@@ -695,7 +708,7 @@ main .btn.dropdown-toggle{
     font-size: 0.8rem;
   }
   .sales__card__item img {
-    width: 300px;
+    width: 260px;
   }
   .sales__head:after {
     width: 38.3%;
@@ -710,14 +723,12 @@ main .btn.dropdown-toggle{
   .follow__head{
     font-size: 1.4rem;
   }
+  .newsLetter button{
+    width:8rem;
+  }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 767px) {
-  .header__search {
-    width: 2.2rem;
-    top: 4.6rem;
-    right: 5%;
-  }
 
   .main__banner__left--text2{
     font-size: 4rem;
@@ -741,7 +752,10 @@ main .btn.dropdown-toggle{
     width: 34.3%;
   }
   .sales__card__item img {
-    width: 310px;
+    width: 290px;
+  }
+  .newsLetter button{
+    width:8rem;
   }
 }
 
@@ -786,7 +800,7 @@ main .btn.dropdown-toggle{
   }
 
   .follow {
-    top: 85%;
+    top: 87%;
     width: 20vw;
     height: 180px;
   }
@@ -818,6 +832,9 @@ main .btn.dropdown-toggle{
   }
   .quickLinks,.newsLetter,.contactInfo{
     font-size:0.8rem;
+  }
+  .newsLetter{
+    margin-right: 3rem;
   }
 }
 
