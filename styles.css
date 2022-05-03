@@ -181,6 +181,7 @@ main .btn.dropdown-toggle{
 
 .sales__head {
   font-size: 1.25rem;
+  font-weight: 400;
   margin: 4.5rem 2.5rem;
   border-bottom: 1px solid rgba(128, 128, 128, 0.4);
 }
