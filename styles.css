@@ -39,10 +39,14 @@ header .dropdown {
   position: relative;
   font-size: 2.5rem;
 }
-.d-flex img {
+.d-flex img{
+ width:1.9rem;
+}
+.d-flex button {
+  border:none;
+  background-color: transparent;
   position: absolute;
-  right: 0.625rem;
-  top: 0.78rem;
+  right: 0.825rem;
 }
 #navBarSearchForm {
   width: 30.75rem;
@@ -130,6 +134,7 @@ main .btn.dropdown-toggle{
   background-color: #894b02;
   color: white;
   font-size: 1.25rem;
+  padding: 0.5rem;
   padding-left: 1.25rem;
 }
 
@@ -154,7 +159,7 @@ main .btn.dropdown-toggle{
 .follow {
   position: absolute;
   z-index: 1;
-  width: 100px;
+  width: 200px;
   height: 200px;
   background-color: silver;
   right: 0;
@@ -166,6 +171,7 @@ main .btn.dropdown-toggle{
 .follow__head {
   text-align: center;
   font-size: 1.51rem;
+  font-weight: 400;
 }
 .follow__icons {
   list-style: none;
@@ -289,7 +295,7 @@ main .btn.dropdown-toggle{
 
 .contactInfo__head {
   margin-top: 1.875rem;
-  margin-bottom: 0.93rem;
+  margin-bottom: 1.35rem;
   font-weight: 600;
 }
 
@@ -307,7 +313,7 @@ main .btn.dropdown-toggle{
   display: flex;
 }
 
-.contactInfo__logo {
+.contactInfo img {
   margin-right: 1.25rem;
 }
 
@@ -426,7 +432,7 @@ main .btn.dropdown-toggle{
     background-color: #894b02;
     color: white;
     height: 2.4rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin-left: 1.2rem;
     margin-right: 0.8rem;
     text-align: left;
@@ -439,6 +445,11 @@ main .btn.dropdown-toggle{
   main button.dropdown-toggle {
     font-size: 1.6rem;
     height: 40px;
+  }
+
+  main .btn-group h1{
+    font-size: 1.6rem;
+    margin-bottom: 0;
   }
 
   main .dropdown-menu{
@@ -484,14 +495,9 @@ main .btn.dropdown-toggle{
   .follow__icons {
     justify-content: flex-end;
   }
-  .follow__icons--img {
-    width: 50%;
-  }
- 
 
   .follow img {
     width: 80%;
-    padding: 0.4rem;
   }
 
   /* sales */
@@ -566,6 +572,7 @@ main .btn.dropdown-toggle{
   .contactInfo {
     margin-left: 2.2rem;
   }
+ 
 
   .newsLetter button {
     border: none;
@@ -612,17 +619,23 @@ main .btn.dropdown-toggle{
   }
   .follow {
     width: 80px;
-    height: 280px;
+    height: 240px;
   }
 
   .follow__head{
     font-size: 0.84rem;
   }
-  .follow__icons--img {
-    width: 85%;
+
+  .follow img{
+    width: 50%;
+    margin-left: 1.5rem;
   }
+ 
   .footer__links{
     font-size: 90%;
+  }
+  .contactInfo img{
+    height:1.9rem;
   }
 }
 
@@ -656,12 +669,13 @@ main .btn.dropdown-toggle{
   .follow__head{
     font-size: 0.6rem;
   }
-  .follow__icons--img {
-    width: 85%;
+  .follow img{
+    width:50%;
   }
   .footer__links{
     font-size: 80%;
   }
+
 }
 
 @media only screen and (min-width: 400px) and (max-width: 600px) {
@@ -698,8 +712,9 @@ main .btn.dropdown-toggle{
   .follow__head{
     font-size: 1rem;
   }
-  .follow__icons--img {
-    width: 70%;
+  
+  .contactInfo img{
+    height:1.9rem;
   }
 }
 
@@ -719,9 +734,6 @@ main .btn.dropdown-toggle{
     width:120px;
     height: 340px;
   }
-  .follow__icons--img {
-    width: 70%;
-  }
   .follow__head{
     font-size: 1.4rem;
   }
@@ -737,18 +749,14 @@ main .btn.dropdown-toggle{
   }
   .follow {
     width:160px;
-    height: 450px;
+    height: 342px;
   }
   .follow__icons{
     width:80%;
   }
   .follow img {
-    width: 100%;
-    padding: 1rem;
-  }
-
-  .follow__icons--img {
     width: 70%;
+    margin-left: 1.5rem;
   }
   .sales__head:after {
     width: 34.3%;
@@ -773,10 +781,7 @@ main .btn.dropdown-toggle{
   }
   
 
-  .d-flex img {
-    width: 1.6rem;
-    top: 0.9rem;
-  }
+
 
   .main__banner__left--text{
    top:50%;
@@ -802,9 +807,6 @@ main .btn.dropdown-toggle{
   .follow__head {
     font-size: 1.26rem;
   }
-  .follow__icons--img {
-    width: 34%;
-  }
   .follow img {
     margin:  0.3955rem 0.14rem ;
   }
@@ -825,7 +827,7 @@ main .btn.dropdown-toggle{
     font-size: 1rem;
   }
   .quickLinks,.newsLetter,.contactInfo{
-    font-size:0.8rem;
+    font-size:0.7rem;
   }
   .newsLetter{
     margin-right: 3rem;
@@ -843,13 +845,9 @@ main .btn.dropdown-toggle{
   }
 
   .main__banner__left--text2{
-    font-size: 4.2rem;
+    font-size: 3.8rem;
   }
 
-  .d-flex img {
-    width: 1.6rem;
-    top: 0.9rem;
-  }
   
   .main__banner__right--list li {
     font-size: 1rem;
@@ -886,7 +884,7 @@ main .btn.dropdown-toggle{
  
   .nav-link {
     margin-right: 8.1rem;
-    font-size:0.9rem;
+    font-size:1.2rem;
   }
   .main__banner__right--list li {
     font-size: 1.35rem;
@@ -897,9 +895,6 @@ main .btn.dropdown-toggle{
   
   .follow {
     width: 200px;
-  }
-  .follow__icons--img {
-    width: 44%;
   }
   .sales__head:after {
     width: 9.3%;
